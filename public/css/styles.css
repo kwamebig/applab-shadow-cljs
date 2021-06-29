@@ -420,12 +420,13 @@ a:not([href]),
 footer {
   width: 100%;
   background: #09142e;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .footer-items {
   z-index: 1;
   opacity: unset;
+  margin-top: -30px;
 }
 
 .footer-items a {
@@ -436,7 +437,7 @@ footer {
 
 .footer-logo {
 margin-bottom: 54px;
-margin-top: 45px;
+margin-top: 15px;
 margin-left: 480px;
 }
 
@@ -474,8 +475,9 @@ font-size: 14px;
 line-height: 44px;
 color: rgba(201, 191, 191, 0.829);
 font-weight: 400;
-margin-top: 54px;
+margin-top: 1px;
 }
+
 
 
 
