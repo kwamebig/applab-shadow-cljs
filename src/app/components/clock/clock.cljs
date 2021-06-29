@@ -19,10 +19,10 @@
 
 (defn get-current-time []
   (js/setInterval
-   #(((let [date (new js/Date)]
+   #(let [date (new js/Date)]
          (swap! clock-components assoc :seconds (.getSeconds date))
          (swap! clock-components assoc :hours (.getHours date))
-         (swap! clock-components assoc :minutes (.getMinutes date)))))
+         (swap! clock-components assoc :minutes (.getMinutes date)))
    1000))
 
 (defn clock []
